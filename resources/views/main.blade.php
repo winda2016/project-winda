@@ -42,12 +42,17 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- SOSMED -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+		
 
 	</head>
 	<body>
@@ -58,30 +63,27 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/about.jpeg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Winda Wulandari</a></h1>
-				<span class="position"><a href="#">Manajemen Informatika</a>in Politeknik Negeri Padang</span>
+				<span class="position"><a href="#">Web Developer</a></span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
 						<li class="active"><a href="#" data-nav-section="about">About</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="portofolio">Portofolio</a></li>
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
+				 <ul class="sidebar-footer">
+                    <a  href="https://github.com/winda2016"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/winda.wulandari.0510/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/windawlndarii/?hl=id"><i class="fab fa-instagram"></i></a>
+                  </ul>
 			</nav>
-
-			<div class="colorlib-footer">
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
-
 		</aside>
+
 <!-- PROFILE -->
 		<div id="colorlib-main">
 			<section id="colorlib-hero" class="js-fullheight" data-section="about">
@@ -99,6 +101,7 @@
 
 						   					<p><strong>Saya Winda Wulandari</strong> mahasiswa di Politeknik Negeri Padang, Jurusan Teknologi Informasi, Program Studi Manajemen Informatika. Saya seorang fast leaner yang jujur, adaptable, bertanggu jawab dan dapat bekerjasama dalam kelompok, saya memiliki pengalaman dibidang web dan mobile programing, Saat ini saya ingin terus belajar dan mendalami ilmu dalam dunia IT</p>
 											</div>
+
 					   				</div>
 					   			</div>
 					   		</div>
@@ -145,6 +148,42 @@
 				</div>
 			</section>
 
+
+<!-- EDUCATION -->
+			<section class="colorlib-experience" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2><strong>EDUCATION</strong></h2>
+						</div>
+					</div>
+						<div class="resume-item d-flex flex-column flex-md-row mb-5">
+							 <div class="resume-date text-md-right">
+				              <span class="text-primary">2014 - 2017</span>
+				            </div>
+				            <div class="resume-content mr-auto">
+				              <h3 class="mb-0">MTSN 1 Batam</h3>
+				            </div>
+				        </div>
+				        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+							 <div class="resume-date text-md-right">
+				              <span class="text-primary">2017 - 2020</span>
+				            </div>
+				            <div class="resume-content mr-auto">
+				              <h3 class="mb-0">SMAN 2 Bayang<br><a><h6>IPA</h6></a></h3>
+				            </div>
+				        </div>
+				        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+							 <div class="resume-date text-md-right">
+				              <span class="text-primary">2020 - sekarang</span>
+				            </div>
+				            <div class="resume-content mr-auto">
+				              <h3 class="mb-0">Politeknik Negeri Padang<br><a><h6>D3 Manajemen Informatika</h6></a></h3>
+				            </div>
+				        </div> 
+			    </div>
+			</section>
+
 			
 <!-- PORTOFOLIO -->
 			<section class="colorlib-work" data-section="portofolio">
@@ -155,37 +194,15 @@
 						</div>
 					</div>
 					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" >Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Mobile Apps</a></span></p>
-						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.png);">
+						<div class="col-md-7 animate-box" data-animate-effect="fadeInLeft">
+							<h5>Project CV</h5>
+							<div class="project" style="background-image: url(images/img-5.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
+										<h3><a href="work.html">Website CV</a></h3>
 										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
 									</div>
 								</div>
 							</div>
@@ -196,7 +213,6 @@
 
 
 <!-- SKILLS -->
-			
 			<section class="colorlib-skills" data-section="skills">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -287,15 +303,6 @@
 					</div>
 					<div class="row">
 						<div class="col-md-5">
-							<!-- <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-pen2"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
-								</div>
-							</div> -->
-
 							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="colorlib-icon">
 									<i class="icon-map"></i>
@@ -315,36 +322,14 @@
 							</div>
 						</div>
 						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-								
-							</div>
+							 <div id="map">
+						          <div class="map-responsive">
+						          	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.296026401762!2d100.43341799999999!3d-0.927092999999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b927c15495d1%3A0xb5b85cd4e771577!2sKost%20Marsya%20(santi)!5e0!3m2!1sen!2sus!4v1676881383597!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						          </div>
+						     </div>
 						</div>
 					</div>
 				</div>
-				 <div id="map">
-			          <div class="map-responsive">
-			             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			          </div>
-			        </div>
 			</section>
 
 		</div><!-- end:colorlib-main -->
@@ -367,7 +352,7 @@
 	<script src="js/jquery.countTo.js"></script>
 	
 	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
+  	 <script src="js/google-map.js"></script>
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
